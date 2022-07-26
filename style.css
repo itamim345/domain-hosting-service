@@ -32,3 +32,25 @@ nav {
     color: #24a7ff!important;
     font-weight: bold;
 }
+/* intro-area css */
+.intro-area {
+    display: flex;
+    justify-content: space-between;
+}
+.intro-content {
+    width: 50%;
+}
+.intro-content h2 {
+    font-size: 4vw;
+}
+.intro-img img {
+    width: 100%;
+}
+.intro-content button {
+    background-color: #24a7ff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    color : #fff;
+    margin-top: 2vw;
+}
