@@ -16,6 +16,12 @@ button {
     border-radius: 10px;
     color : #fff;
     margin-top: 2vw;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #fff;
+    color: #24a7ff;
+    border: 2px solid #24a7ff;
 }
 img {
     width: 90%;
@@ -53,6 +59,11 @@ nav {
     color: #24a7ff!important;
     font-weight: bold;
 }
+.register-btn:hover {
+    background-color: #24a7ff;
+    color: #fff!important;
+}
+
 /* intro-area css */
 .intro-area {
     display: flex;
@@ -182,6 +193,10 @@ nav {
     font-weight: bold;
     margin-top: 0;
 }
+.pricing-footer button:hover {
+    background-color: #24a7ff;
+    color: #fff!important;
+}
 /* Customer Review Area CSS */
 .customer-review-area {
     padding: 10vh 0;
@@ -211,3 +226,31 @@ nav {
 .user-img img{
     border-radius: 50%;
 }
+/* call to action area CSS */
+#coll-to-action-section {
+    background-color: #24a7ff;
+}
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10vh 0;
+}
+.action-content {
+    color: #fff;
+    width: 50%;
+}
+.action-content p {
+    color : #fff;
+    line-height: 1.5;
+}
+.action-button button {
+    background: transparent;
+    border: 2px solid #fff;
+
+}
+.action-button button:hover {
+    background-color: #fff;
+    color: #24a7ff;
+}
+
