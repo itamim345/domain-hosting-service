@@ -23,8 +23,11 @@ img {
 p {
     color: gray;
 }
-h2 {
+h1 {
     font-size: 4vw;
+}
+h2 {
+    font-size: 3vw;
 }
 
 /* nav area css */
@@ -108,3 +111,69 @@ nav {
 .single-services-content img {
     width: 5vw;
 }
+
+/* Pricing Area CSS */
+.pricing-area {
+    background-color: #24a7ff;
+    padding: 5vh 0;
+}
+.pricing-table {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+}
+.single-pricing {
+    background: #fff;
+    margin: 0 5vh; 
+    border-radius: 10px;
+}
+.single-pricing .pricing-header {
+    padding: 2vw;
+}
+.header-two {
+    background-color: #424242;
+    border-radius: 10px;
+    color: #fff;
+}
+.header-two p {
+    color: #fff;
+}
+.single-pricing .pricing-body,.pricing-footer{
+    padding: 1vw 2vw;
+}
+.pricing-header h3 {
+    font-size: 2vw;
+    margin: 0;
+}
+.pricing-body{
+    padding: 3vh 0;
+}
+.pricing-body ul{
+    list-style-type: none;
+    padding: 0;
+}
+.pricing-body li {
+    margin: 1vw 0;
+    color: #1e1d1d;
+    font-size: 1.3vw;
+}
+.pricing-body li i {
+    margin: 0 1vw;
+    color: #6EC72D;
+}
+.pricing-footer {
+    text-align: center;
+    padding: 2vh 0;
+}
+.pricing-footer h2 {
+    margin: 0;
+}
+.pricing-footer button {
+    background: transparent;
+    padding: 10px 25px;
+    border: 2px solid #24a7ff;
+    border-radius: 10px;
+    color: #24a7ff!important;
+    font-weight: bold;
+    margin-top: 0;
+}
+
