@@ -70,4 +70,41 @@ nav {
 .quality-content h2 {
     font-size: 3.5vw;
 }
-
+/* Technical Support Area CSS */
+.technical-support-area {
+    display: flex;
+    padding: 10vh 0;
+}
+.technical-content {
+    width: 50%;
+}
+.technical-img {
+    width: 50%;
+}
+.technical-content h2 {
+    font-size: 3.5vw;
+}
+/* Services Area */
+.services-area {
+    padding: 10vh 0;
+}
+.services-title {
+    display: flex;
+    align-items: center;
+}
+.title-details {
+    width: 50%;
+}
+.services-title h2 {
+    font-size: 3.5vw;
+}
+.services-content {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+}
+.single-services-content {
+    padding: 5vh 2vh;
+}
+.single-services-content img {
+    width: 5vw;
+}
