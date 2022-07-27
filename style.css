@@ -289,6 +289,22 @@ nav {
     display: flex;
     font-size: 2vw;
     gap: 1vw;
+    margin: 0;
+}
+.social-media ul .fb {
+    color:  #4267B2;
+}
+.social-media ul .insta {
+    color:  rgb(138, 58, 185);
+}
+.social-media ul .ytb {
+    color:  #c4302b;
+}
+.social-media ul .lkdn {
+    color:  #0072b1;
+}
+.social-media h3 {
+    margin-bottom: 0;
 }
 
 
