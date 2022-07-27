@@ -9,6 +9,24 @@ body{
     width: 90%;
     margin: 0 auto;
 }
+button {
+    background-color: #24a7ff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    color : #fff;
+    margin-top: 2vw;
+}
+img {
+    width: 90%;
+}
+p {
+    color: gray;
+}
+h2 {
+    font-size: 4vw;
+}
+
 /* nav area css */
 nav {
     display: flex;
@@ -36,21 +54,20 @@ nav {
 .intro-area {
     display: flex;
     justify-content: space-between;
+    padding: 10vh 0;
 }
 .intro-content {
     width: 50%;
 }
-.intro-content h2 {
-    font-size: 4vw;
+/* Quality area css */
+.quality-area {
+    display: flex;
+    padding: 10vh 0;
 }
-.intro-img img {
-    width: 100%;
+.quality-content {
+    width: 50%;
 }
-.intro-content button {
-    background-color: #24a7ff;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 10px;
-    color : #fff;
-    margin-top: 2vw;
+.quality-content h2 {
+    font-size: 3.5vw;
 }
+
