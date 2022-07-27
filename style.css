@@ -47,7 +47,7 @@ nav {
 }
 .register-btn {
     background: transparent;
-    padding: 10px 25px;
+    padding: 1vw 3vw;
     border: 2px solid #24a7ff;
     border-radius: 10px;
     color: #24a7ff!important;
@@ -115,7 +115,11 @@ nav {
 /* Pricing Area CSS */
 .pricing-area {
     background-color: #24a7ff;
-    padding: 5vh 0;
+    padding: 10vh 0;
+}
+.pricing-area h2 {
+    text-align: center;
+    color: #fff;
 }
 .pricing-table {
     display: grid;
@@ -125,6 +129,7 @@ nav {
     background: #fff;
     margin: 0 5vh; 
     border-radius: 10px;
+    padding-bottom: 5vh;
 }
 .single-pricing .pricing-header {
     padding: 2vw;
@@ -166,14 +171,43 @@ nav {
 }
 .pricing-footer h2 {
     margin: 0;
+    color: #1e1d1d;
 }
 .pricing-footer button {
     background: transparent;
-    padding: 10px 25px;
+    padding: 1vw 3vw;
     border: 2px solid #24a7ff;
     border-radius: 10px;
     color: #24a7ff!important;
     font-weight: bold;
     margin-top: 0;
 }
-
+/* Customer Review Area CSS */
+.customer-review-area {
+    padding: 10vh 0;
+}
+.review-intro {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+.single-review {
+    margin: 2vw;
+    border: 2px solid rgb(222, 220, 220);
+    padding: 2vw;
+}
+.review-user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.review-user-info h3 {
+    margin: 0;
+}
+.user-img img{
+    border-radius: 50%;
+}
