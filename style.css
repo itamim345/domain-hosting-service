@@ -30,12 +30,19 @@ img {
 }
 p {
     color: gray;
+    font-size: 1.2rem;
 }
 h1 {
-    font-size: 4vw;
+    font-size: 3rem;
 }
 h2 {
-    font-size: 3vw;
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+a {
+    font-size: 1rem;
 }
 
 /* nav area css */
@@ -47,6 +54,11 @@ nav {
 }
 .logo-area img {
     width: 8vw;
+}
+.menu-area li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 2vw 0;
 }
 .menu-area a {
     text-decoration: none;
@@ -86,9 +98,6 @@ nav {
 .quality-content {
     width: 50%;
 }
-.quality-content h2 {
-    font-size: 3.5vw;
-}
 /* Technical Support Area CSS */
 .technical-support-area {
     display: flex;
@@ -100,9 +109,7 @@ nav {
 .technical-img {
     width: 50%;
 }
-.technical-content h2 {
-    font-size: 3.5vw;
-}
+
 /* Services Area */
 .services-area {
     padding: 10vh 0;
@@ -114,9 +121,7 @@ nav {
 .title-details {
     width: 50%;
 }
-.services-title h2 {
-    font-size: 3.5vw;
-}
+
 .services-content {
     display: grid;
     grid-template-columns: repeat(3, 33.3%);
@@ -125,7 +130,7 @@ nav {
     padding: 5vh 2vh;
 }
 .single-services-content img {
-    width: 5vw;
+    width: 5rem;
 }
 
 /* Pricing Area CSS */
@@ -143,9 +148,9 @@ nav {
 }
 .single-pricing {
     background: #fff;
-    margin: 0 5vh; 
     border-radius: 10px;
     padding-bottom: 5vh;
+    margin: 3vw;
 }
 .single-pricing .pricing-header {
     padding: 2vw;
@@ -162,7 +167,6 @@ nav {
     padding: 1vw 2vw;
 }
 .pricing-header h3 {
-    font-size: 2vw;
     margin: 0;
 }
 .pricing-body{
@@ -261,7 +265,7 @@ nav {
 }
 /* Footer Area CSS */
 .footer-area {
-    padding: 10vh 0;
+    padding: 10vh 0 0 0;
     display: flex;
     justify-content: space-between;
 }
@@ -280,16 +284,19 @@ nav {
     color: black;
 }
 .logo {
-    width: 30%;
+    width: 10rem;
 }
 .logo img {
-    width: 35%;
+    width: 9rem;
 }
 .social-media ul {
+    justify-content: center;
     display: flex;
-    font-size: 2vw;
     gap: 1vw;
     margin: 0;
+}
+.social-media li a {
+    font-size: 2rem;
 }
 .social-media ul .fb {
     color:  #4267B2;
@@ -305,6 +312,93 @@ nav {
 }
 .social-media h3 {
     margin-bottom: 0;
+}
+.footer-end {
+    text-align: center;
+}
+.footer-end span {
+    color: crimson;
+}
+
+/* Responsive CSS */
+@media (max-width: 992px){
+    #welcome-section {
+        padding: 2vh 0;
+    }
+    nav {
+        flex-direction: column;
+        padding: 2vh 0;
+        text-align: center;
+    }
+    .logo-area img {
+        margin-bottom: 3vw;
+        width: 15vw;
+    }
+    #talk-btn {
+        display: block;
+        text-align: center;
+        margin: 3vw auto !important;
+    }
+    .intro-area {
+        flex-direction: column-reverse;
+        text-align: center
+    }
+    .intro-content,.quality-content,.technical-content,.technical-img {
+        width: 100%;
+    }
+    .quality-area {
+        flex-direction: column;
+    }
+    .technical-support-area {
+        flex-direction: column-reverse;
+    }
+    .services-content {
+        grid-template-columns: repeat(2, 50%);
+    }
+    .title-details {
+        width: 100%;
+    }
+    .pricing-table {
+        grid-template-columns: repeat(2, 50%);
+    }
+    .call-to-action {
+        flex-direction: column;
+        text-align: center;
+    }
+    .action-content {
+        width: 100%;
+    }
+    .footer-area {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo {
+        width: 100%;
+    }
+    .footer-area ul li {
+        display: inline-block;
+    }
+    .footer-area ul li a {
+        margin: 1rem;
+    }
+}
+@media (max-width: 768px){
+    .services-content{
+        grid-template-columns: repeat(1,100%);
+        text-align: center;
+    }
+    .pricing-table {
+        grid-template-columns: repeat(1, 100%);
+    }
+    .pricing-body li {
+        font-size: .9rem;
+    }
+    .reviews {
+        grid-template-columns: repeat(1, 100%);
+    }
+    .services-title {
+        flex-direction: column;
+    }
 }
 
 
